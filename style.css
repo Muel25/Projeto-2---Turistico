@@ -4,7 +4,6 @@
 }
 
 html {
-  align-items: center;
   background-size: cover;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -28,14 +27,18 @@ body {
   width: 1120px;
   padding: 24px;
   border-radius: 24px;
-  margin: 48px auto 28px;
+  margin: 48px auto 0px;
+}
+
+section {
+  color: 333333;
 }
 main {
   margin: 40px;
 }
 
 #introduction {
-  margin-bottom: 64px;
+  margin-bottom: 40px;
 }
 
 #divisory {
@@ -47,6 +50,7 @@ main {
   place-items: center;
   text-align: center;
   justify-content: center;
+  font-style: italic;
 }
 
 h2 {
@@ -71,8 +75,38 @@ li {
 #historia {
   color: #0C51A7;
 }
+#casais {
+  color: #591B98;
+}
+#familias {
+  color: #E5245E;
+}
+#orçamento {
+  color: #E95E10;
+}
 
-#beomeo-sa {
+#beomeo-sa, #parque {
   margin-top: 48px;
 }
 
+#divisory2 {
+  border-top: solid #D9D9D9 1px;
+  margin-top: 20px;
+}
+
+p + p {
+  margin-top: 20px;
+  place-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+footer {
+  color: #333333;
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 80px;
+}
